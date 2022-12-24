@@ -1,5 +1,13 @@
+import CounterController from './component/CounterController';
+import ShowCounter from './component/ShowCounter';
+
 function App() {
-  return <div>App</div>;
+  return (
+    <>
+      <ShowCounter />
+      <CounterController />
+    </>
+  );
 }
 
 export default App;
